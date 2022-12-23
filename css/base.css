@@ -1,0 +1,53 @@
+:root {
+    --bodytext-color: #f2f2f2;
+}
+
+body {
+    background-color: #2d2d2d;
+    margin: 0;
+    color: var(--bodytext-color);
+}
+/* Main header element */
+header {
+    overflow: hidden;
+    background-color: #161616;
+}
+header a {
+    float: left;
+    display: block;
+    color: var(--bodytext-color);
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+/* Header navigation */
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 2rem;
+    overflow: hidden;
+}
+header li {
+    float: right;
+}
+header li a {
+    display: block;
+    color: var(--bodytext-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header li a:hover {
+    background-color: #2d2d2d;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #161616;
+}
+footer a {
+    text-align: center;
+
+}
