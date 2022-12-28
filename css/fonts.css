@@ -12,3 +12,8 @@
     font-family: DS-Digi;
     src: url(../fonts/DS-DIGITAL/DS-DIGI.TTF);
 }
+
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/Calibri/calibri.ttf);
+}

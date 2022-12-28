@@ -6,7 +6,19 @@ body {
     background-color: #2d2d2d;
     margin: 0;
     color: var(--bodytext-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 80%;
+    height: 0;
+}
+
+hr.hidden {
+    clear: both;
+    visibility: hidden;
 }
 
 /* Main header element */
@@ -116,4 +128,42 @@ footer h2 {
     padding: 0.75rem;
     font-style: italic;
     font-size: 1rem;
+}
+
+/* Main content */
+main h1 {
+    text-align: center;
+}
+
+main .contentPair {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+}
+
+main .contentPair figure img {
+    justify-content: left;
+    border: 2px;
+    border-radius: 5%;
+    box-shadow: gray 0px 0px 0px 5px;
+    max-width: 25rem;
+    height: auto;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    float: left;
+}
+
+main .contentPair .contentTextContainer {
+    width: 25rem;
+    padding-top: 1%;
+}
+main .contentPair .contentTextContainer p {
+    text-align: left;
+}
+
+main .contentPair:nth-of-type(odd) {
+    flex-direction: row-reverse;
 }
