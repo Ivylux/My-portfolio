@@ -12,9 +12,10 @@ class MyHeader extends HTMLElement {
                     
                     <div id="mySidenav" class="sidenav">
                         <ul>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="coding.html">Coding</a></li>
                             <li><a href="design.html">Design</a></li>
-                            <li><a href="music.html">Music</a></li>
+                            <li><a href="cv.html">Resume</a></li>
                         </ul>
                     </div>
                 </nav>

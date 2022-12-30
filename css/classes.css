@@ -14,8 +14,17 @@
 .image-container a {
     color: unset;
 }
+/* Main image on other pages */
+.image-container img.main {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
 
-/* Text containers on the home page */
+/* Text containers */
 .topleft {
     position: absolute;
     top: 25%;
@@ -36,6 +45,25 @@
 .bottomright h1 {
     font-family: OCR-A;
     font-size: 3rem;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+}
+.centered.design h1 {
+    font-family: Courgette;
+    font-size: 8rem;
+}
+.centered.code h1 {
+    font-family: OCR-A;
+    font-size: 8rem;
+}
+.centered.cv {
+    font-size: 4.5rem;
 }
 
 .text-container {
