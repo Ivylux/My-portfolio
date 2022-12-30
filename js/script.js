@@ -4,13 +4,12 @@ class MyHeader extends HTMLElement {
             <header>
                 <a href="index.html">Olivia's Portfolio</a>
                 <nav>
-                    <div onclick="toggleSideNav(this)" class="burgerButton">
+                    <button type="button" onclick="toggleSideNav(this)" class="burgerButton">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
-                    </div>
+                    </button>
                     
-
                     <div id="mySidenav" class="sidenav">
                         <ul>
                             <li><a href="coding.html">Coding</a></li>
