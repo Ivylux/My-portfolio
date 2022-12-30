@@ -94,6 +94,9 @@ a:focus-visible .text-container {
 
     .topleft h1, .bottomright h1 {font-size: 2rem;}
     .text-container p {font-size: 1rem;}
+    .centered.code h1 {font-size: 3rem;}
+    .centered.cv h1 {font-size: 2.5rem;}
+    .centered.design h1 {font-size: 3rem;}
 
 }
 @media only screen and (max-width: 350px) {
