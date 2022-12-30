@@ -2,7 +2,7 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header>
-                <a href="index.html">Olivia's Portfolio</a>
+                <a href="index.html">Olivia's portfolio</a>
                 <nav>
                     <button type="button" onclick="toggleSideNav(this)" class="burgerButton">
                         <div class="bar1"></div>
@@ -57,4 +57,17 @@ function toggleSideNav(menu) {
 
     //menu.classList.toggle is the animation for the burgermenu
     menu.classList.toggle("change");
+}
+
+//Animation for header logo
+var i = 0;
+var txt = "Olivia's portfolio";
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
 }
