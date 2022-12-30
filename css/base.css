@@ -30,6 +30,7 @@ header>a {
     font-family: DS-DIGI;
     float: left;
     display: block;
+    position: absolute;
     color: var(--bodytext-color);
     text-align: center;
     padding: 14px 30px;
@@ -78,6 +79,10 @@ nav .burgerButton {
     position: relative;
     z-index: 2;
     padding: 0.5rem;
+}
+header button {
+    background-color: transparent;
+    border: none;
 }
 
 /* Header responsive side navigation */
