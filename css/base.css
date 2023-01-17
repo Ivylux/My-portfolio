@@ -83,6 +83,7 @@ nav .burgerButton {
 header button {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 /* Header responsive side navigation */
